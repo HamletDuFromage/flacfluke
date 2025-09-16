@@ -9,7 +9,7 @@ import numpy
 import threading
 from scipy.fftpack import rfft
 from scipy.io.wavfile import read
-from scipy.signal import hann
+from scipy.signal.windows import hann
 
 
 class FlacFluke:
